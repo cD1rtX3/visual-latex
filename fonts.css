@@ -1,0 +1,23 @@
+@font-face {
+	font-family: "Nimbus Roman No. 9 L", serif;
+	src: url(font/NimbusRomNo9L-Reg.otf) format("opentype");
+}
+
+@font-face {
+	font-family: "Nimbus Roman No. 9 L", serif;
+	src: url(font/NimbusRomNo9L-RegIta.otf) format("opentype");
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Nimbus Roman No. 9 L", serif;
+	src: url(font/NimbusRomanNo9L-Med.otf) format("opentype");
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: "Nimbus Roman No. 9 L", serif;
+	src: url(font/NimbusRomNo9L-MedIta.otf) format("opentype");
+	font-weight: bold;
+	font-style: italic;
+}
