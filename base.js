@@ -7,9 +7,6 @@ document.addEventListener("keydown", function (e) {
 	} else {
 		cur_string += e.key;
 	}
-	ctx.fillStyle = "#111";
-	ctx.fillRect(0, 0, window.innerWidth, window.innerHeight);
-	ctx.fillStyle = "#eee";
 	cursor_x = 8;
 	text("italic 36px", cur_string);
 });
