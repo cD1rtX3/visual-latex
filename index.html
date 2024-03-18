@@ -16,17 +16,7 @@
 	</head>
 	<body>
 		<div id="vis-latex-main"></div>
-		<script>
-			// Create the canvas.
-			const div_main = document.getElementById("vis-latex-main");
-			div_main.innerHTML += `<canvas id="vis-latex-canvas-main" width="1920" height="${1920 * window.innerHeight / window.innerWidth}" style="width: 100vw; height: 100vh;"></canvas>`;
-			// Pre-initialize.
-			const ctx = document.getElementById("vis-latex-canvas-main").getContext("2d");
-			ctx.fillStyle = "#eee";
-			ctx.font = 'italic 32px "Nimbus Roman No. 9 L"';
-			ctx.textBaseline = "hanging";
-			//
-		</script>
+		<script src="./init.js"></script>
 		<script src="./base.js"></script>
 	</body>
 </html>
