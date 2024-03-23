@@ -10,10 +10,8 @@ ctx.textBaseline = "hanging";
 // Text drawing function.
 let cursor_x = 8;
 let cursor_y = 44;
-function text(style, text, x_offset = 0, y_offset = 0) {
+function text(style, text) {
 	ctx.font = style + ' "Nimbus Roman No. 9 L"';
-	cursor_x += x_offset;
-	cursor_y += y_offset;
 	ctx.fillText(text, cursor_x, cursor_y);
 	cursor_x += ctx.measureText(text);
 }
